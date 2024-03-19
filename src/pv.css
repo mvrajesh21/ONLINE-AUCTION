@@ -1,0 +1,67 @@
+/* Container for the OTP elements */
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f2f5; /* A light gray background */
+  }
+  
+  /* FirebaseUI Styling */
+  .firebaseui-container {
+    width: 100%;
+    max-width: 400px; /* Adjust based on your preference */
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+    background-color: white; /* White background for the form area */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .firebaseui-card-header {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  .firebaseui-title {
+    color: #333; /* Dark text for better readability */
+    font-size: 24px; /* Title size */
+  }
+  
+  .firebaseui-input {
+    margin-bottom: 20px; /* Space between input fields */
+  }
+  
+  .firebaseui-id-submit {
+    background-color: #007bff; /* Primary color for submit button */
+    color: white; /* Text color for the button */
+    border: none; /* Remove default border */
+    padding: 10px 15px; /* Padding inside the button */
+    border-radius: 4px; /* Match border-radius of input fields */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Cursor indicates button */
+  }
+  
+  .firebaseui-id-submit:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Error message styling */
+  .firebaseui-error {
+    color: #d9534f; /* Error color */
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+    .firebaseui-container {
+      padding: 15px;
+      margin: 20px; /* Increase margin on smaller screens */
+    }
+  
+    .firebaseui-title {
+      font-size: 20px; /* Slightly smaller title on small screens */
+    }
+  }
+  
